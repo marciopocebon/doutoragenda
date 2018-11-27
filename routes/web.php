@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('inicio', 'Controller@agenda');
+Route::get('agenda', 'Controller@agenda');
+Route::get('clinica', 'Controller@clinica');
+Route::get('relatorios', 'Controller@relatorios');
+Route::get('configuracoes', 'Controller@configuracoes');

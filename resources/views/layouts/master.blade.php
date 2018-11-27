@@ -16,7 +16,7 @@
 </head>
 <body>
 <header class="cd-main-header">
-    <a href="#0" class="cd-logo"><img src="img/logo-padrao.png" alt="Doutor Agenda"></a>
+    <a href="/" class="cd-logo"><img src="img/logo-padrao.png" alt="Doutor Agenda"></a>
 
     {{--<div class="cd-search is-hidden">
         <form action="#0">
@@ -53,7 +53,7 @@
         <ul>
             {{--<li class="cd-label">Main</li>--}}
             <li class="has-children mn-inicio">
-                <a id="menu-inicio" class="" href="#0">Início</a>
+                <a id="menu-inicio" class="" href="/">Início</a>
 
                 <ul>
                     <li><a href="#0">Menu 1</a></li>
@@ -62,7 +62,7 @@
                 </ul>
             </li>
             <li class="has-children mn-agenda">
-                <a href="#0">Agenda</a>
+                <a id="menu-agenda" href="/agenda">Agenda</a>
 
                 <ul>
                     <li><a href="#0">Menu 1</a></li>
@@ -72,7 +72,7 @@
             </li>
 
             <li class="has-children mn-clinica">
-                <a href="#0">Perfil da Clínica</a>
+                <a id="menu-clinica" href="/clinica">Perfil da Clínica</a>
 
                 <ul>
                     <li><a href="#0">Menu 1</a></li>
@@ -82,7 +82,7 @@
             </li>
 
             <li class="has-children mn-relatorios">
-                <a href="#0">Relatórios</a>
+                <a id="menu-relatorios" href="/relatorios">Relatórios</a>
 
                 <ul>
                     <li><a href="#0">Menu 1</a></li>
@@ -91,7 +91,7 @@
                 </ul>
             </li>
             <li class="has-children mn-configuracoes">
-                <a href="#0">Configurações</a>
+                <a id="menu-configuracoes" href="/configuracoes">Configurações</a>
 
                 <ul>
                     <li><a href="#0">Menu 1</a></li>

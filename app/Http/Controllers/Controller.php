@@ -16,5 +16,20 @@ class Controller extends BaseController
         /*Request::flash();*/
         return view('agenda.index');
     }
+    public function clinica()
+    {
+        /*Request::flash();*/
+        return view('clinica.index');
+    }
+    public function relatorios()
+    {
+        /*Request::flash();*/
+        return view('relatorios.index');
+    }
+    public function configuracoes()
+    {
+        /*Request::flash();*/
+        return view('configuracoes.index');
+    }
 
 }
