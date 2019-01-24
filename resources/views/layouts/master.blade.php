@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Doutor Agenda')</title>
     @push('style')
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="vendor/fontawesome-5.2.0/css/all.min.css">
         <link rel="stylesheet" href="css/reset.css">
@@ -94,9 +94,8 @@
                 <a id="menu-configuracoes" href="/configuracoes">Configurações</a>
 
                 <ul>
-                    <li><a href="#0">Menu 1</a></li>
-                    <li><a href="#0">Menu 2</a></li>
-                    <li><a href="#0">Menu 3</a></li>
+                    <li><a href="#0">Dados da Clínica</a></li>
+                    <li><a href="#0">Corpo Clínico</a></li>
                 </ul>
             </li>
         </ul>

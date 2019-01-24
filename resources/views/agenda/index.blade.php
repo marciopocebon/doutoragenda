@@ -6,7 +6,7 @@
     <section>
         <div class="content-wrapper">
             <div class="container">
-                <div class="row">Agenda</div>
+                <div class="row">Full Calendar</div>
             </div>
         </div>
     </section>

@@ -778,6 +778,106 @@ Sidebar
     transform: translateY(-50%) rotate(180deg);
 }
 
+.barra-resumo-semana {
+    padding: 10px 50px;
+    background-color: #f1f7fc;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,.1);
+}
+.barra-resumo-semana .titulo {
+    font-size: 24px;
+    color: #2676BA;
+    margin: 14px 0 8px 0;
+}
+.barra-resumo-semana .periodo {
+    font-size: 16px;
+    color: #7B7B7B;
+    margin:0;
+    font-weight: 300;
+}
+.barra-resumo-semana .numero {
+    font-size: 28px;
+    line-height: 48px;
+    color: #46484A;
+    text-align: center;
+}
+.barra-resumo-semana .descricao {
+    font-size: 16px;
+    color: #7B7B7B;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.barra-resumo-semana .row div {
+    border-right: 1px solid #b3b8bc;
+}
+.barra-resumo-semana .row div:last-child {
+    border-right: 0 solid #b3b8bc;
+}
+.area-conteudo {
+    padding: 40px 50px;
+}
+.area-conteudo .ac-titulo {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.area-conteudo .ac-conteudo {
+    border-radius: 4px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico {
+    min-height: 950px;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom:0;
+    border-right: 1px solid #ddd;
+    padding: 30px 0 30px 40px;
+    background-color: #f1f7fc;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav.nav-tabs .btn-adicionar-profissional {
+    margin-bottom: 20px;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: #f1f7fc;
+}
+
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:#fff !important;
+    border-color: transparent !important;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem!important;
+    border-top-right-radius: 0rem!important;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav-tabs .nav-link img {
+    width: 64px;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .tab-content>.active {
+    display: block;
+    background: #fff;
+    min-height: 165px;
+}
+.area-conteudo .ac-conteudo .acc-corpo-clinico .nav.nav-tabs {
+    width: 480px;
+    height: 950px;
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom: 0;
+    border-right: 1px solid transparent;
+}
+
 @media only screen and (min-width: 768px) {
     .has-children {
         position: relative;
@@ -843,7 +943,7 @@ Sidebar
 
 @media only screen and (min-width: 1170px) {
     .has-children > ul {
-        width: 100%;
+        width: 160px;
         z-index: 1;
     }
 

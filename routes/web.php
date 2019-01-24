@@ -12,10 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('agenda', 'Controller@agenda');
 Route::get('clinica', 'Controller@clinica');
 Route::get('relatorios', 'Controller@relatorios');
 Route::get('configuracoes', 'Controller@configuracoes');
+Route::get('corpo-clinico', 'Controller@corpoClinico');

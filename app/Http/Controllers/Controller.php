@@ -11,6 +11,11 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
+    public function login()
+    {
+        /*Request::flash();*/
+        return view('auth.login');
+    }
     public function agenda()
     {
         /*Request::flash();*/
@@ -31,5 +36,9 @@ class Controller extends BaseController
         /*Request::flash();*/
         return view('configuracoes.index');
     }
-
+    public function corpoClinico()
+    {
+        /*Request::flash();*/
+        return view('corpo-clinico.index');
+    }
 }
