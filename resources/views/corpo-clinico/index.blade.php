@@ -53,9 +53,9 @@
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">
                                     <div class="foto-profissional">
-                                        <img src="" alt="Foto do profissional">
+                                        <img src="img/corpo-clinico/bruna.png" alt="Foto do profissional">
                                     </div>
-                                    <p>Dr. Fernando Gomes</p>
+                                    <p>Dra. Bruna Marquezine</p>
                                 </a>
                             </li>
                             <li class="nav-item">
